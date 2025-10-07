@@ -1,8 +1,8 @@
 /*
-  # Base44 Database Schema
+  # CRAudioVizAI Builder Database Schema
 
   ## Overview
-  This migration creates the complete database structure for a Base44-like application
+  This migration creates the complete database structure for CRAudioVizAI Builder application
   with workspaces, bases, tables, fields, records, and collaboration features.
 
   ## 1. New Tables
@@ -80,7 +80,6 @@
   - `id` (uuid, primary key)
   - `base_id` (uuid, references bases)
   - `user_id` (uuid, references profiles)
-  - `last_seen` (timestamptz)
   - `cursor_position` (jsonb)
 
   ## 2. Security

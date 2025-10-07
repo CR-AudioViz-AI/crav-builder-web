@@ -164,7 +164,7 @@ export default function Dashboard() {
                 <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-xl">
                   📊
                 </div>
-                <h1 className="text-2xl font-bold text-gray-900">BaseFlow</h1>
+                <h1 className="text-2xl font-bold text-gray-900">CRAudioVizAI Builder</h1>
               </div>
 
               <div className="h-8 w-px bg-gray-300"></div>
