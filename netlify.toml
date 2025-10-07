@@ -1,6 +1,9 @@
 [build]
-  command = "npm ci && npm run build"
-  publish = ".next"
+  command = "npm install && npm run build"
+  publish = "dist"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+# SPA routing so client-side routes work
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
