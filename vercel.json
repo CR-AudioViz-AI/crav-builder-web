@@ -3,5 +3,11 @@
   "github": {
     "autoAlias": false,
     "silent": true
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
